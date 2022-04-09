@@ -1,11 +1,11 @@
 # ESP32-CAM_thermometer
 Using an ESP32-CAM to monitor a liquid thermometer
 
+Accompanying [YouTube video](https://youtu.be/_NWB49mpcyM)
+
 This video describes how to set up an ESP32-CAM  to record the temperature of a glass thermometer. Images from the ESP32 video stream over a wifi and processed using Python OpenCV. 
 
 The original project used a ESP32 development board and an OV5624 camera shield (https://youtu.be/TBst0CGrtAo) but image acquisition was much more reliable using an ESP32-CAM, shown here.
-
-The script can be found at https://github.com/damianjwilliams/ESP32-CAM_thermometer
 
 For analysis, the received image of the thermometer is processed using the Python OpenCV package, using the following steps. 
 
